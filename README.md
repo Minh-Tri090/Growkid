@@ -18,7 +18,7 @@ Website thương mại điện tử cho sản phẩm trẻ em, gồm:
 Mở PowerShell tại thư mục gốc project:
 
 ```powershell
-cd "C:\Users\Dell Precision 5820\Web Growkid\server"
+cd "C:\Users\admin\Web Growkid\server"
 npm install
 
 cd ..\client
@@ -50,7 +50,7 @@ Nếu dùng MongoDB local, đảm bảo MongoDB service đang chạy trên máy.
 ### 2. Khởi động backend
 
 ```powershell
-cd "C:\Users\Dell Precision 5820\Web Growkid\server"
+cd "C:\Users\admin\Web Growkid\server"
 npm run dev
 ```
 
@@ -65,14 +65,14 @@ http://localhost:5000
 Chạy lệnh này một lần sau khi MongoDB đã hoạt động:
 
 ```powershell
-cd "C:\Users\Dell Precision 5820\Web Growkid\server"
+cd "C:\Users\admin\Web Growkid\server"
 npm run seed
 ```
 
 ### 4. Khởi động frontend
 
 ```powershell
-cd "C:\Users\Dell Precision 5820\Web Growkid\client"
+cd "C:\Users\admin\Web Growkid\client"
 npm run dev
 ```
 
@@ -97,7 +97,7 @@ Kết quả hợp lệ sẽ có `status: ok`.
 ## Build frontend
 
 ```powershell
-cd "C:\Users\Dell Precision 5820\Web Growkid\client"
+cd "C:\Users\admin\Web Growkid\client"
 npm run build
 ```
 
